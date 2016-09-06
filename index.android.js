@@ -38,7 +38,6 @@ var WebViewExample = React.createClass({
   },
 
   inputText: '',
-
   handleTextInputChange: function(event) {
     var url = event.nativeEvent.text;
     if (!/^[a-zA-Z-_]+:/.test(url)) {
@@ -46,10 +45,8 @@ var WebViewExample = React.createClass({
     }
     this.inputText = url;
   },
-
   render: function() {
     this.inputText = this.state.url;
-
     return (
       <View style={[styles.container]}>
        
