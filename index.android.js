@@ -21,7 +21,7 @@ var BGWASH = 'rgba(255,255,255,0.8)';
 var DISABLED_WASH = 'rgba(255,255,255,0.25)';
 
 var TEXT_INPUT_REF = 'urlInput';
-var WEBVIEW_REF = 'webview';
+var WEBVIEW_REF = 'webview'; 
 var DEFAULT_URL = 'http://www.baidu.com';
 
 var WebViewExample = React.createClass({
